@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/5e08165dddee5273e9686c3f2949b83195716698/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -30,7 +30,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "socketsinf.host",
-      "CheckUser": "http://20.226.25.79:5000/checkUser",
+      "CheckUser": "http://18.231.177.120:5000/checkUser/",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
