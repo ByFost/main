@@ -1,27 +1,15 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.0",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/5e08165dddee5273e9686c3f2949b83195716698/UrlUpdate",
-  "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
+  "Sms": "",
   "EmailFeedback": "magnago2005@hotmail.com",
   "UrlContato": "https://t.me/Infinit_internet",
-  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "UrlTermos": "https://raw.githubusercontent.com/ByFost/main/main/Termos.html",
   "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7300"
-    },
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
-    },
-    {
-      "Porta": "7600"
-    },
-    {
-      "Porta": "7700"
     }
   ],
   "Servers": [
@@ -30,12 +18,12 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "socketsinf.host",
-      "CheckUser": "http://18.231.177.120:5000/checkUser",
+      "CheckUser": "http://18.231.177.120:5000/checkUser/",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
+    }
   ],
   "Networks": [
     {
