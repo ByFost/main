@@ -49,7 +49,7 @@
     {
       "Name": "TIM PROXY 01",
       "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://m.timbancavirtual.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.19.94",
@@ -59,8 +59,8 @@
     {
       "Name": "TIM TLS 02",
       "FLAG": "tim",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://partageshoppingbetim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "partageshoppingbetim.com.br",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -79,8 +79,8 @@
     {
       "Name": "TIM TLS 04",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
+      "Payload": "GET wss://emartim.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartim.com.br",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "",
