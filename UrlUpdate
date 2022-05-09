@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.4",
-  "ReleaseNotes": "Atualização 1.0.4",
+  "Version": "1.0.5",
+  "ReleaseNotes": "Atualização 1.0.5",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "magnago2005@hotmail.com",
@@ -50,11 +50,11 @@
       "Name": "TIM PROXY 01",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
+      "SNI": "[app_host]",
       "TlsIP": "",
       "ProxyIP": "104.16.133.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM TLS 02",
