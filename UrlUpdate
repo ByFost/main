@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.1",
-  "ReleaseNotes": "Atualização 1.1.1",
+  "Version": "1.1.2",
+  "ReleaseNotes": "Atualização 1.1.2",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "magnago2005@hotmail.com",
@@ -47,17 +47,17 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY 01",
+      "Name": "TIM 01",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
+      "Payload": "GET wss://blog.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "blog.alura.com.br",
       "TlsIP": "172.64.147.215",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 02",
+      "Name": "TIM 02",
       "FLAG": "tim",
       "Payload": "GET ws://www.alura.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "www.alura.com.br",
@@ -67,7 +67,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 03",
+      "Name": "TIM 03",
       "FLAG": "tim",
       "Payload": "GET wss://empresas.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "empresas.alura.com.br",
@@ -77,20 +77,10 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 04",
+      "Name": "TIM 04",
       "FLAG": "tim",
-      "Payload": "GET wss://emartim.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "emartim.com.br",
-      "TlsIP": "172.64.147.215",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM TLS 05",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
       "TlsIP": "172.64.147.215",
       "ProxyIP": "",
       "ProxyPort": "",
