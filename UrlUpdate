@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.6",
+  "Version": "1.1.7",
   "ReleaseNotes": "Nova Atualização 😃",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "socketsinf.host",
-      "CheckUser": "http://137.184.39.170:5454/checkUser",
+      "CheckUser": "http://150.230.86.166:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -79,9 +79,9 @@
     {
       "Name": "TIM 04",
       "FLAG": "tim",
-      "Payload": "GET wss://beringtime.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "beringtime.com",
-      "TlsIP": "172.64.147.215",
+      "Payload": "GET wss://ecommercebrasil.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ecommercebrasil.alura.com.br",
+      "TlsIP": "188.114.97.3",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -109,35 +109,15 @@
     {
       "Name": "CLARO 03",
       "FLAG": "claro",
-      "Payload": "GET wss://support.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "support.kaltura.com",
-      "TlsIP": "support.kaltura.com",
+      "Payload": "GET wss://blog.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "blog.kaltura.com",
+      "TlsIP": "blog.kaltura.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "OI PROXY 01(novo)",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.55.91",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "OI PROXY 02(novo)",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: websocket\r\n\r\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.55.91",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "OI TLS 03(novo)",
+      "Name": "OI TLS",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "www.hbogo.com.br",
