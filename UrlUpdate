@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.4",
-  "ReleaseNotes": "Atualização 1.1.4",
+  "Version": "1.1.5",
+  "ReleaseNotes": "Atualização 1.1.5",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "magnago2005@hotmail.com",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "socketsinf.host",
-      "CheckUser": "http://137.184.39.170:5454/checkUser/",
+      "CheckUser": "http://137.184.39.170:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
