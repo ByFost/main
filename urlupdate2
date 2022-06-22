@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "Atualização 1.0.3",
+  "Version": "1.0.4",
+  "ReleaseNotes": "Atualização 1.0.4",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/urlupdate2",
   "Sms": "",
   "EmailFeedback": "klebinhoodesign@gmail.com",
@@ -77,34 +77,34 @@
       "Info": "Tlsws"
     },
     {
-      "Nome": "CLARO 01",
-      "BANDEIRA": "claro",
+      "Name": "CLARO 01",
+      "FLAG": "claro",
       "Payload": "GET wss://videos.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "videos.kaltura.com",
       "TlsIP": "videos.kaltura.com",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Nome": "CLARO 02",
-      "BANDEIRA": "claro",
+      "Name": "CLARO 02",
+      "FLAG": "claro",
       "Payload": "GET wss://connect.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "connect.kaltura.com",
       "TlsIP": "connect.kaltura.com",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Nome": "CLARO 03",
-      "BANDEIRA": "claro",
+      "Name": "CLARO 03",
+      "FLAG": "claro",
       "Payload": "GET wss://blog.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "blog.kaltura.com",
       "TlsIP": "blog.kaltura.com",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "OI TLS",
