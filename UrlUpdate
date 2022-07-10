@@ -1,6 +1,6 @@
 {
-  "Version": "1.2.0",
-  "ReleaseNotes": "Nova Atualização! VIVO VOLTOU 🙌🏻👏🏻😄😜",
+  "Version": "1.2.1",
+  "ReleaseNotes": "Nova Atualização 👍🏻",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "magnago2005@hotmail.com",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "socketsinf.host",
-      "CheckUser": "http://20.197.197.21:5454/checkUser",
+      "CheckUser": "http://54.174.184.106:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
