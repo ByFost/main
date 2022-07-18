@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.5",
-  "ReleaseNotes": "Nova Atualização! VIVO VOLTOU 🙌🏻👏🏻😁!",
+  "Version": "1.0.6",
+  "ReleaseNotes": "Nova Atualização !",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/urlupdate2",
   "Sms": "",
   "EmailFeedback": "klebinhoodesign@gmail.com",
@@ -79,9 +79,9 @@
     {
       "Name": "CLARO 01",
       "FLAG": "claro",
-      "Payload": "GET wss://videos.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "videos.kaltura.com",
-      "TlsIP": "videos.kaltura.com",
+      "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -89,9 +89,9 @@
     {
       "Name": "CLARO 02",
       "FLAG": "claro",
-      "Payload": "GET wss://connect.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "connect.kaltura.com",
-      "TlsIP": "connect.kaltura.com",
+      "Payload": "GET wss://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "ipv4.icanhazip.com",
+      "TlsIP": "ipv4.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
