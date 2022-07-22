@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.4",
+  "Version": "1.2.5",
   "ReleaseNotes": "Nova Atualização 👍🏻",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "socketsinf.host",
-      "CheckUser": "http://15.228.28.204:5454/checkUser",
+      "CheckUser": "http://20.226.108.76:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
