@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "Nova Atualização !",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/urlupdate2",
   "Sms": "",
@@ -52,7 +52,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d25j55kohzt9k9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "13.35.118.90",
+      "ProxyIP": "108.156.83.74",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
