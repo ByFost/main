@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.6",
+  "Version": "1.2.7",
   "ReleaseNotes": "Nova Atualização 👍🏻",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -47,14 +47,14 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO TLS 03",
+      "Name": "VIVO PROXY 03 funcionando",
       "FLAG": "vivo",
-      "Payload": "GET wss://www.dssmith.com HTTP/1.1[lf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.dssmith.com",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+      "Payload": "GET / HTTP/1.1[crlf]Host: d25j55kohzt9k9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "13.35.118.90",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "TIM 01",
