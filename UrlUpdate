@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.8",
+  "Version": "1.2.9",
   "ReleaseNotes": "Nova Atualização 👍🏻",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -49,7 +49,7 @@
     {
       "Name": "VIVO PROXY 03",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d25j55kohzt9k9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3kxb8qcfmuc1v.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.156.83.74",
