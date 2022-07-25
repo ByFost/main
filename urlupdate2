@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "Nova Atualização !",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/urlupdate2",
   "Sms": "",
@@ -45,6 +45,16 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO PROXY 03",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d25j55kohzt9k9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "13.35.118.90",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "TIM 01",
@@ -105,6 +115,16 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO 04",
+      "FLAG": "claro",
+      "Payload": "GET wss://videos.kaltura.com/ HTTP/1.1[crlf]Host: d25j55kohzt9k9.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "videos.kaltura.com",
+      "TlsIP": "162.159.135.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Proxy"
     },
     {
       "Name": "OI TLS",
