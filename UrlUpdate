@@ -1,6 +1,6 @@
 {
-  "Version": "1.2.9",
-  "ReleaseNotes": "Nova Atualização 👍🏻",
+  "Version": "1.3.0",
+  "ReleaseNotes": "Nova Atualização CONEXÃO VIVO FINCIONANDO 🤪🥳👏🏻",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "magnago2005@hotmail.com",
@@ -27,32 +27,22 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO PROXY 01",
+      "Name": "VIVO 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: Websocket\n\n",
+      "Payload": "GET / HTTP/1.1[crlf]Host: t3hktp3fqo.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.21.11.51",
+      "ProxyIP": "t3hktp3fqo.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO TLS 02",
+      "Name": "VIVO 02",
       "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: Websocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.21.11.51",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO PROXY 03",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3kxb8qcfmuc1v.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: t3hktp3fqo.map.azionedge.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "108.156.83.74",
+      "ProxyIP": "t3hktp3fqo.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
