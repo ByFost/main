@@ -1,6 +1,6 @@
 {
-  "Version": "1.3.0",
-  "ReleaseNotes": "Nova Atualização CONEXÃO VIVO FINCIONANDO 🤪🥳👏🏻",
+  "Version": "1.3.1",
+  "ReleaseNotes": "Nova Atualização",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "magnago2005@hotmail.com",
@@ -29,20 +29,10 @@
     {
       "Name": "VIVO 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: t3hktp3fqo.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3kxb8qcfmuc1v.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "t3hktp3fqo.map.azionedge.net",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO 02",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: t3hktp3fqo.map.azionedge.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "t3hktp3fqo.map.azionedge.net",
+      "ProxyIP": "108.156.83.74",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
