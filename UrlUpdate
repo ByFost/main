@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.4",
+  "Version": "1.3.5",
   "ReleaseNotes": "Nova Atualização",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -29,7 +29,7 @@
     {
       "Name": "VIVO 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3kxb8qcfmuc1v.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: pt83tos1k6.map.azionedge.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.156.83.74",
@@ -99,12 +99,12 @@
     {
       "Name": "CLARO 03",
       "FLAG": "claro",
-      "Payload": "GET wss://blog.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "blog.kaltura.com",
-      "TlsIP": "blog.kaltura.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+      "Payload": "Payload: GET / HTTP/1.1[crlf]Host: pt83tos1k6.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "150.230.80.70",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "OI TLS",
