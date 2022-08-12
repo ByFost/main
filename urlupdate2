@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.9",
+  "Version": "1.1.0",
   "ReleaseNotes": "Nova Atualização !",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/urlupdate2",
   "Sms": "",
@@ -29,30 +29,10 @@
     {
       "Name": "VIVO 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: t3hktp3fqo.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1\nHost: pt83tos1k6.map.azionedge.net\nUpgrade: Websocket\n\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "t3hktp3fqo.map.azionedge.net",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO 02",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1\nHost: t3hktp3fqo.map.azionedge.net\nUpgrade: Websocket\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "t3hktp3fqo.map.azionedge.net",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO PROXY 03",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: t3hktp3fqo.map.azionedge.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "t3hktp3fqo.map.azionedge.net",
+      "ProxyIP": "pt83tos1k6.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -89,41 +69,11 @@
     {
       "Name": "CLARO 01",
       "FLAG": "claro",
-      "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "4.icanhazip.com",
-      "TlsIP": "4.icanhazip.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO 02",
-      "FLAG": "claro",
-      "Payload": "GET wss://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "ipv4.icanhazip.com",
-      "TlsIP": "ipv4.icanhazip.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO 03",
-      "FLAG": "claro",
-      "Payload": "GET wss://blog.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "blog.kaltura.com",
-      "TlsIP": "blog.kaltura.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO 04",
-      "FLAG": "claro",
-      "Payload": "GET wss://videos.kaltura.com/ HTTP/1.1[crlf]Host: d25j55kohzt9k9.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "videos.kaltura.com",
-      "TlsIP": "162.159.135.91",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "Payload": "GET / HTTP/1.1[crlf]Host: pt83tos1k6.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "pt83tos1k6.map.azionedge.net",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
