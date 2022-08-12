@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "socketsinf.host",
-      "CheckUser": "http://54.174.184.106:5454/checkUser",
+      "CheckUser": "http://130.185.238.175:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
