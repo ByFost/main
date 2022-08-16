@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "ReleaseNotes": "Nova Atualização !",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/urlupdate2",
   "Sms": "",
@@ -32,7 +32,7 @@
       "Payload": "GET / HTTP/1.1\nHost: pt83tos1k6.map.azionedge.net\nUpgrade: Websocket\n\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "pt83tos1k6.map.azionedge.net",
+      "ProxyIP": "179.191.168.34",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
