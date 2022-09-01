@@ -102,7 +102,7 @@
       "Payload": "GET http://www.claro.com.br HTTP/1.0[crlf]Host: http://www.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "[app_host]",
+      "ProxyIP": "socketsinf.host",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
