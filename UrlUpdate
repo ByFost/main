@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.2",
+  "Version": "1.4.3",
   "ReleaseNotes": "Nova Atualização",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -99,10 +99,10 @@
     {
       "Name": "CLARO 03",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: pt83tos1k6.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET http://www.claro.com.br HTTP/1.0[crlf]Host: http://www.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "pt83tos1k6.map.azionedge.net",
+      "ProxyIP": "[app_host]",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
