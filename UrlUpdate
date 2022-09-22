@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.7",
+  "Version": "1.4.8",
   "ReleaseNotes": "Nova Atualização",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -59,12 +59,12 @@
     {
       "Name": "TIM 03",
       "FLAG": "tim",
-      "Payload": "GET wss://empresas.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "empresas.alura.com.br",
-      "TlsIP": "172.64.147.215",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "TIM 04",
