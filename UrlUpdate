@@ -79,9 +79,9 @@
     {
       "Name": "CLARO 01",
       "FLAG": "claro",
-      "Payload": "GET wss://go.launchdarkly.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "go.launchdarkly.com",
-      "TlsIP": "go.launchdarkly.com",
+      "Payload": "GET wss://cdnclaro2.wooza.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnclaro2.wooza.com.br",
+      "TlsIP": "cdnclaro2.wooza.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
