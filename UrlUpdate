@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.8",
+  "Version": "1.4.9",
   "ReleaseNotes": "Nova Atualização",
   "UrlUpdate": "https://raw.githubusercontent.com/ByFost/main/main/UrlUpdate",
   "Sms": "",
@@ -39,9 +39,9 @@
     {
       "Name": "TIM 01",
       "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "162.247.241.14",
+      "Payload": "GET wss://cursolivre.ampli.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cursolivre.ampli.com.br",
+      "TlsIP": "cursolivre.ampli.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
